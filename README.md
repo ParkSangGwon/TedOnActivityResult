@@ -50,14 +50,14 @@ You can select library according to your `RxJava` version.
 ## RxJava1
 ```java
 dependencies {
-    compile 'gun0912.ted:tedonactivityresult-rx1:1.0.0@aar'
+    compile 'gun0912.ted:tedonactivityresult-rx1:1.0.2@aar'
 }
 ```
 
 ## RxJava2
 ```java
 dependencies {
-    compile 'gun0912.ted:tedonactivityresult-rx2:1.0.0@aar'
+    compile 'gun0912.ted:tedonactivityresult-rx2:1.0.2@aar'
 }
 ```
 <br><br><br><br>
