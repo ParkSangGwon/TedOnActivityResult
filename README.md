@@ -50,16 +50,25 @@ You can select library according to your `RxJava` version.
 ## RxJava1
 ```java
 dependencies {
-    compile 'gun0912.ted:tedonactivityresult-rx1:1.0.2@aar'
+    compile 'gun0912.ted:tedonactivityresult-rx1:1.0.2'
 }
 ```
 
 ## RxJava2
 ```java
 dependencies {
-    compile 'gun0912.ted:tedonactivityresult-rx2:1.0.2@aar'
+    compile 'gun0912.ted:tedonactivityresult-rx2:1.0.2'
 }
 ```
+
+## Normal
+Even if you don't use RxJava, you can use this library.
+```java
+dependencies {
+    compile 'gun0912.ted:tedonactivityresult:1.0.2'
+}
+```
+
 <br><br><br><br>
 
 # How to use
@@ -82,7 +91,7 @@ TedRxOnActivityResult.with(this)
     });
 ```
 
-## Listener
+## Normal
 Also you can use `OnActivityResultListener` not RxJava's chaining style
 ```java
 TedOnActivityResult.with(this)
