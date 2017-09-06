@@ -7,18 +7,20 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import com.gun0912.tedonactivityresult.listener.OnActivityResultListener;
 import com.gun0912.tedonactivityresult.model.ActivityRequest;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Random;
-import java.util.Stack;
 
 public class ProxyActivity extends Activity {
 
-  private static Stack<ActivityRequest> activityRequestStack;
+  private static Deque<ActivityRequest> activityRequestStack;
 
 
   public static void startActivityForResult(Context context, Intent intent, OnActivityResultListener listener) {
 
     if (activityRequestStack == null) {
-      activityRequestStack = new Stack<>();
+      activityRequestStack = new ArrayDeque<>();
     }
 
     ActivityRequest activityRequest = new ActivityRequest(intent, listener);
