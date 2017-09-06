@@ -5,6 +5,7 @@ ext {
             'targetSdkVersion' : 26,
             'buildToolsVersion': '26.0.0',
             'supportLibrary'   : '26.0.0-alpha1',
+            "kotlin"           : "1.1.4-3"
     ]
 
     deps = [
@@ -17,5 +18,8 @@ ext {
                     'appcompat': "com.android.support:appcompat-v7:${versions.supportLibrary}",
             ],
 
+            "kotlin": [
+                    "core": "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}"
+            ]
     ]
 }
