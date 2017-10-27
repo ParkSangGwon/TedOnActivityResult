@@ -4,8 +4,8 @@ android:
     - tools
     - platform-tools
     - tools
-    - build-tools-25.0.0
-    - android-25
+    - build-tools-26.0.0
+    - android-26
     - add-on
     - extra
   licenses:
