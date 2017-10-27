@@ -9,6 +9,6 @@ android:
     - add-on
     - extra
   licenses:
-    - 'android-sdk-preview-license-52d11cd2'
+    - 'android-sdk-preview-license-.+'
     - 'android-sdk-license-.+'
     - 'google-gdk-license-.+'
