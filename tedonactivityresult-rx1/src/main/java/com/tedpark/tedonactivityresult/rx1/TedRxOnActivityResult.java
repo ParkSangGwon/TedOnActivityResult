@@ -8,6 +8,7 @@ import com.gun0912.tedonactivityresult.TedOnActivityResult;
 import com.gun0912.tedonactivityresult.listener.OnActivityResultListener;
 import com.gun0912.tedonactivityresult.model.ActivityResult;
 import rx.Observable;
+import rx.Single;
 import rx.subjects.PublishSubject;
 
 
@@ -32,9 +33,9 @@ public final class TedRxOnActivityResult {
       });
     }
 
-    public Observable<ActivityResult> startActivityForResult(final Intent intent) {
+    public Single<ActivityResult> startActivityForResult(final Intent intent) {
       ProxyActivity.startActivityForResult(context, intent, listener);
-      return subject;
+      return subject.toSingle();
     }
   }
 }

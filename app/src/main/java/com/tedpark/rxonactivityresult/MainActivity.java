@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
               Log.v("ted", "MainActivity rx1 onActivityResult() name: " + name + ", age: " + age);
             }
 
-          });
+          }, Throwable::printStackTrace);
 
     });
 
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
               Log.v("ted", "MainActivity rx2 onActivityResult() name: " + name + ", age: " + age);
             }
 
-          });
+          }, Throwable::printStackTrace);
 
     });
   }
