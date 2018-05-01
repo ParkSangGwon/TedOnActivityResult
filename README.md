@@ -48,24 +48,27 @@ If you use [RxJava](https://github.com/ReactiveX/RxJava), you want chaining like
 You can select library according to your `RxJava` version.
 
 ## RxJava1
+[ ![Download](https://api.bintray.com/packages/tkdrnjs0912/maven/tedonactivityresult-rx1/images/download.svg) ](https://bintray.com/tkdrnjs0912/maven/tedonactivityresult-rx1/_latestVersion)
 ```java
 dependencies {
-    compile 'gun0912.ted:tedonactivityresult-rx1:1.0.3'
+    compile 'gun0912.ted:tedonactivityresult-rx1:x.y.z'
 }
 ```
-
+[ ![Download](https://api.bintray.com/packages/tkdrnjs0912/maven/tedonactivityresult-rx2/images/download.svg) ](https://bintray.com/tkdrnjs0912/maven/tedonactivityresult-rx2/_latestVersion)
 ## RxJava2
 ```java
 dependencies {
-    compile 'gun0912.ted:tedonactivityresult-rx2:1.0.3'
+    compile 'gun0912.ted:tedonactivityresult-rx2:x.y.z'
 }
 ```
 
 ## Normal
 Even if you don't use RxJava, you can use this library.
+<br><br>
+[ ![Download](https://api.bintray.com/packages/tkdrnjs0912/maven/tedonactivityresult/images/download.svg) ](https://bintray.com/tkdrnjs0912/maven/tedonactivityresult/_latestVersion)
 ```java
 dependencies {
-    compile 'gun0912.ted:tedonactivityresult:1.0.3'
+    compile 'gun0912.ted:tedonactivityresult:x.y.z'
 }
 ```
 
