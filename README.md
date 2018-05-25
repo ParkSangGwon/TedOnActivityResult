@@ -54,8 +54,9 @@ dependencies {
     compile 'gun0912.ted:tedonactivityresult-rx1:x.y.z'
 }
 ```
-[ ![Download](https://api.bintray.com/packages/tkdrnjs0912/maven/tedonactivityresult-rx2/images/download.svg) ](https://bintray.com/tkdrnjs0912/maven/tedonactivityresult-rx2/_latestVersion)
+
 ## RxJava2
+[ ![Download](https://api.bintray.com/packages/tkdrnjs0912/maven/tedonactivityresult-rx2/images/download.svg) ](https://bintray.com/tkdrnjs0912/maven/tedonactivityresult-rx2/_latestVersion)
 ```java
 dependencies {
     compile 'gun0912.ted:tedonactivityresult-rx2:x.y.z'
