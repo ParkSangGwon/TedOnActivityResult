@@ -5,7 +5,6 @@
     <activity
         android:name=".ProxyActivity"
         android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
-        android:screenOrientation="unspecified"
         android:theme="@style/android:Theme.Translucent.NoTitleBar" />
   </application>
 </manifest>
