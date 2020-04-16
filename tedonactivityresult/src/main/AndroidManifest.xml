@@ -6,6 +6,6 @@
         android:name=".ProxyActivity"
         android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
         android:screenOrientation="unspecified"
-        android:theme="@style/android:Theme.Translucent.NoTitleBar" />
+        android:theme="@style/Theme.AppCompat.Light.Dialog" />
   </application>
 </manifest>
