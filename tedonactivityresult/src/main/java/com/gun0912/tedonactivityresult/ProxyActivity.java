@@ -34,7 +34,7 @@ public class ProxyActivity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        setFinishOnTouchOutside(false);
         if (activityRequestStack == null) {
             finish();
             return;
