@@ -48,7 +48,7 @@ If you use [RxJava](https://github.com/ReactiveX/RxJava), you want chaining like
 You can select library according to your `RxJava` version.
 
 ## RxJava1
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.ParkSangGwon/tedpermission.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.ParkSangGwon%22%20AND%20a:%tedonactivityresult-rx1%22)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.ParkSangGwon/tedonactivityresult-rx1.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.ParkSangGwon%22%20AND%20a:%tedonactivityresult-rx1%22)
 ```gradle
 repositories {
   google()
@@ -61,7 +61,7 @@ dependencies {
 ```
 
 ## RxJava2
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.ParkSangGwon/tedpermission.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.ParkSangGwon%22%20AND%20a:%tedonactivityresult-rx2%22)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.ParkSangGwon/tedonactivityresult-rx2.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.ParkSangGwon%22%20AND%20a:%tedonactivityresult-rx2%22)
 ```gradle
 repositories {
   google()
@@ -76,7 +76,7 @@ dependencies {
 ## Normal
 Even if you don't use RxJava, you can use this library.
 <br><br>
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.ParkSangGwon/tedpermission.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.ParkSangGwon%22%20AND%20a:%tedonactivityresult%22)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.ParkSangGwon/tedonactivityresult.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.ParkSangGwon%22%20AND%20a:%tedonactivityresult%22)
 ```gradle
 repositories {
   google()
