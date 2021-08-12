@@ -48,16 +48,26 @@ If you use [RxJava](https://github.com/ReactiveX/RxJava), you want chaining like
 You can select library according to your `RxJava` version.
 
 ## RxJava1
-[ ![Download](https://api.bintray.com/packages/tkdrnjs0912/maven/tedonactivityresult-rx1/images/download.svg) ](https://bintray.com/tkdrnjs0912/maven/tedonactivityresult-rx1/_latestVersion)
-```java
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.ParkSangGwon/tedpermission.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.ParkSangGwon%22%20AND%20a:%tedonactivityresult-rx1%22)
+```gradle
+repositories {
+  google()
+  mavenCentral()
+} 
+
 dependencies {
     compile 'gun0912.ted:tedonactivityresult-rx1:x.y.z'
 }
 ```
 
 ## RxJava2
-[ ![Download](https://api.bintray.com/packages/tkdrnjs0912/maven/tedonactivityresult-rx2/images/download.svg) ](https://bintray.com/tkdrnjs0912/maven/tedonactivityresult-rx2/_latestVersion)
-```java
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.ParkSangGwon/tedpermission.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.ParkSangGwon%22%20AND%20a:%tedonactivityresult-rx2%22)
+```gradle
+repositories {
+  google()
+  mavenCentral()
+} 
+
 dependencies {
     compile 'gun0912.ted:tedonactivityresult-rx2:x.y.z'
 }
@@ -66,8 +76,13 @@ dependencies {
 ## Normal
 Even if you don't use RxJava, you can use this library.
 <br><br>
-[ ![Download](https://api.bintray.com/packages/tkdrnjs0912/maven/tedonactivityresult/images/download.svg) ](https://bintray.com/tkdrnjs0912/maven/tedonactivityresult/_latestVersion)
-```java
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.ParkSangGwon/tedpermission.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.ParkSangGwon%22%20AND%20a:%tedonactivityresult%22)
+```gradle
+repositories {
+  google()
+  mavenCentral()
+} 
+
 dependencies {
     compile 'gun0912.ted:tedonactivityresult:x.y.z'
 }
