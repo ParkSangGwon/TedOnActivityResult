@@ -56,7 +56,7 @@ repositories {
 } 
 
 dependencies {
-    compile 'gun0912.ted:tedonactivityresult-rx1:x.y.z'
+    compile 'io.github.ParkSangGwon:tedonactivityresult-rx1:x.y.z'
 }
 ```
 
@@ -69,7 +69,7 @@ repositories {
 } 
 
 dependencies {
-    compile 'gun0912.ted:tedonactivityresult-rx2:x.y.z'
+    compile 'io.github.ParkSangGwon:tedonactivityresult-rx2:x.y.z'
 }
 ```
 
@@ -84,7 +84,7 @@ repositories {
 } 
 
 dependencies {
-    compile 'gun0912.ted:tedonactivityresult:x.y.z'
+    compile 'io.github.ParkSangGwon:tedonactivityresult:x.y.z'
 }
 ```
 
