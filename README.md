@@ -1,4 +1,4 @@
-# What is TedRxOnActivityResult
+# What is TedOnActivityResult
 When we use `startActivityForResult()`, we have to receive result/data in `onActivityResult()`.<br>
 
 ```java
@@ -40,7 +40,7 @@ If you use [RxJava](https://github.com/ReactiveX/RxJava), you want chaining like
   .subscribe(...);
 ```
 
-**TedRxOnActivityResult** can make `startActivityForResult()` chaining.
+**TedOnActivityResult** can make `startActivityForResult()` chaining.
 
 <br><br><br><br>
 
