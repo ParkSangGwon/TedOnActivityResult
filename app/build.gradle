@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion versions.compileSdkVersion
-    buildToolsVersion versions.buildToolsVersion
     defaultConfig {
         applicationId "com.tedpark.rxonactivityresult"
         minSdkVersion versions.minSdkVersion
@@ -34,9 +34,13 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':tedonactivityresult-rx1')
-    compile project(':tedonactivityresult-rx2')
+    implementation project(':tedonactivityresult-coroutine')
+    implementation project(':tedonactivityresult-rx1')
+    implementation project(':tedonactivityresult-rx2')
+
+    implementation deps.androidx.appcompat
+    implementation deps.kotlin.stdlib
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1"
 
 
 
