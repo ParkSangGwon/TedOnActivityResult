@@ -1,1 +1,1 @@
-include ':app', ':tedonactivityresult', ':tedonactivityresult-rx1', ':tedonactivityresult-rx2'
+include ':app', ':tedonactivityresult', ':tedonactivityresult-rx1', ':tedonactivityresult-rx2', ':tedonactivityresult-coroutine'
