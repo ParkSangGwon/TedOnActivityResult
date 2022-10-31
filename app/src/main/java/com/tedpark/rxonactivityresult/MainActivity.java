@@ -2,8 +2,9 @@ package com.tedpark.rxonactivityresult;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.gun0912.tedonactivityresult.TedOnActivityResult;
 import com.tedpark.tedonactivityresult.rx2.TedRxOnActivityResult;
 
@@ -36,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
           .startActivityForResult();
 
     });
+
+    findViewById(R.id.btn_coroutine).setOnClickListener(view -> startActivity(new Intent(this, CoroutineActivity.class)));
 
     findViewById(R.id.btn_rx1).setOnClickListener(view -> {
 
