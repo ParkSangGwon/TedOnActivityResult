@@ -4,7 +4,7 @@
   <application>
     <activity
         android:name=".ProxyActivity"
-        android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
+        android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection|smallestScreenSize"
         android:screenOrientation="unspecified"
         android:theme="@style/Theme.AppCompat.Light.Dialog" />
   </application>
